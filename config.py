@@ -9,11 +9,11 @@ if os.path.exists(".env"):
     load_dotenv(".env")
 
 # Necessary Vars
-API_ID = int(os.getenv("29653892"))
-API_HASH = os.getenv("9a9c203c27ccb3a6d3982ecdab9c54ad")
-SESSION = os.getenv("1AZWarzwBuwZTbkHcFLip-nqNtQDhUlBtCaxoZLy4HqjpUlfDB8vDql_Up5AomnSuYy9vMPdbO2rkR81eDsICZiNpmtpbHTJFmnNRQnjJiuSq1hGMo2D7NdhhB1uOckRXpPo1NNv6EpH6CImK0CrdIHmlQhJW3gG9_V5Ovj57MrCvCw-nhGxW-3XinH3yCR8M-kSlwIRbmkeLmV3Qh_3QZfAfW0uvBMG0yiDwYLOxvqH1d-e91dODu5Y02F5m2xp1hL50cvyZgY1GxVsNh4nqdACCNzaxEs4JMA0bSuIfhEbIdu9CssJhDL9MzUuvmZLup6BsUVokR8ZXumYqF6M2LEJ5w4BfmlM=")
+API_ID = int(os.getenv("20632724"))
+API_HASH = os.getenv("fcb71f66e685e3ece3c4c36b87ec19de")
+SESSION = os.getenv("1BVtsOHgBu21v1Bhgi7dMbVPdgFwhS2X0nryPuShT7Jh0MktpXFmpszVZ1lS4M_NlxBzFCkElAqtIGhm1OdK3kATfCAIuXfmZOxllXjybY4GfZS2zFyrGgOMBAbjURDUJWovCn59-KZ04VkN_q5FmpA5bGH2HrBRtdcvTlBVGF05SUowiLAKfdtSwXgXPJt5h_F6VIlWye82Rs3b8TvKV-b63ew22zmMKj-z9OMUkiXNfvuQ03j54FV5Sj3Rc-inFg7HdQJTiZdIMn09h0kCXDn-wHCP4PvfrIWdbiPegUFESrDHDeEIJ3fILmX4EM3HMDTkJ-KbfBuD7SJr2HCExCrdGvEM6ZkE=")
 HNDLR = os.getenv("HNDLR", "/")
-SUDO_USERS = list(map(int, os.getenv("5663329994").split()))
+SUDO_USERS = list(map(int, os.getenv("1780355297").split()))
 
 
 contact_filter = filters.create(
